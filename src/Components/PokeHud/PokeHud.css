@@ -1,0 +1,96 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+}
+#Pokehud{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    height: 98%;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.content-right{
+    outline: 2px solid black;
+    box-shadow: 0 0 10px 2px black;
+    width: 27%;
+    min-height: 48%;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    min-height: 300px;
+    background-color: white;
+}
+
+.content-left{
+    width: 68%;
+    min-height: 48%;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.465);
+    background-color: white;
+}
+.skill{
+    font-weight: bold;
+}
+.skill:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #494949;
+}
+.left-top{
+    min-height: 300px;
+}
+.left-bottom{
+    min-height: 300px;
+}
+h2{
+    text-align: center;
+    font-family: fantasy;
+    color: orangered;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.604);
+}
+.right-top{
+    display: flex;
+    align-items: center;
+    max-height: 300px;
+    background-color: white;
+    justify-content: center;
+}
+.right-top img{
+    min-height: 300px;
+    max-height: 300px;
+    
+}
+.right-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-height: 300px;
+    justify-content: center;
+    background-color: white;
+}
+.right-bottom hr{
+    width: 100%;
+}
+.right-bottom img{
+    min-height: 200px;
+    max-height: 200px;
+}
+@media (max-width: 414px) {
+    .content-right{
+        width: 320px;
+        margin: 0.8rem;
+    }
+    .content-left{
+        width: 320px;
+        margin: 0.8rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}

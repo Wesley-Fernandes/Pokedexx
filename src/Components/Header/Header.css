@@ -1,0 +1,29 @@
+#header a{
+    height: 10vh;
+    background: linear-gradient(rgb(254, 89, 0), rgb(134, 0, 0));
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#header a img{
+    width: 30px;
+    margin: 0 1rem;
+}
+#header a h1{
+    text-indent: 0rem;
+}
+@media (max-width: 414px) {
+    #header{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(rgb(254, 89, 0), rgb(134, 0, 0));
+        color: white;
+        width: 100%;
+    }
+    #header a img{
+        width: 30px;
+    }
+    #header a h1{
+        font-size: 2rem;
+    }
+}
