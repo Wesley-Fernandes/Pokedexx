@@ -1,6 +1,6 @@
 {
   "name": "vite-project",
-  "home": "github-page/",
+  "home": "./",
   "private": true,
   "version": "0.0.0",
   "type": "module",
